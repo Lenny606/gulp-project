@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0 ;
+}
+
+$font_color: white;
+$font_style: Cinzel, sans-serif;
+$weight_900: 900;
+
+.container__text {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+    
+    background-image: url("/img/dune-bg.jpg");
+    background-repeat: no-repeat;
+
+    .container__left-text{
+      padding-bottom: 4em;
+      align-self: flex-end;
+      flex-grow: 3;
+            }
+
+    .container__right-text {
+    text-align: right;
+    flex-grow: 1;
+    padding-top: 4em;
+            }
+
+            
+p {
+    color: $font_color;
+    font-family: $font_style;
+    font-size: 3em;
+}
+ }
+
+
+.left_text-title {
+    font-weight:$weight_900;
+    font-size: 5em;
+}
